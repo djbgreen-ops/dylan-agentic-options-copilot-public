@@ -1,0 +1,28 @@
+{
+  "project": "D.Y.L.A.N.",
+  "artifact_type": "sanitized_terminal_summary",
+  "status_floor": [
+    "production_candidate",
+    "backtest_required",
+    "paper_trade_required",
+    "live_capital_not_approved"
+  ],
+  "evaluation_summary": {
+    "production_suite": "55/55 green",
+    "prompt_hashes": "9/9 unchanged",
+    "backtest_arc": "BT0-BT10 complete",
+    "readiness": "paper trading authorized; live capital not authorized"
+  },
+  "outcome_buckets": [
+    "realized",
+    "modeled",
+    "excluded",
+    "sensitivity"
+  ],
+  "disclosures": [
+    "preliminary replay only",
+    "not full live-path fidelity",
+    "human approval required",
+    "proprietary strategy details withheld"
+  ]
+}
